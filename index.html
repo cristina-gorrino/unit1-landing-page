@@ -4,25 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link></link>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <title>My Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>page 1</li>
-                <li>page 2</li>
-                <li>page 3</li>
+                <li><a href="www.google.com">page 1</a></li>
+                <li><a href="www.google.com">page 2</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <h1>Welcome!</h1>
     </header>
 
-    <h1>Welcome!</h1>
-    <img src = "" alt ="description"/>
-    <form>
+    <main>
+        <figure>
+            <img src = "./assets/images/markus-spiske-p-l8OjDH9eE-unsplash.jpg" alt ="omputer code on a screen"/>
+            <figcaption>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="/s/photos/open-source?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </figcaption>
+        </figure>
+        <div class="contact">
+            <h2>Get in touch</h2>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"/><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
 
-    </form>
+
 
     <footer></footer>
     

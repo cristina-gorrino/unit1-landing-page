@@ -1,0 +1,51 @@
+* {
+    font-size: 16px;
+}
+
+header {
+
+}
+nav {
+    background-color: darkslateblue;
+    display: flex; /* not working */
+    padding: 8px auto;
+    margin: 8px auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    font-size: 18px;
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    color: ivory;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    color: black;
+    padding:8px;
+    text-decoration: none;
+}
+
+main {
+    align-content: center;/* not working */
+}
+img {
+    width: 50%;
+    box-align: center; /* not working */
+}
+figure{
+    background-color: lavender;
+}
+.contact {
+    background-color: lemonchiffon;
+}
